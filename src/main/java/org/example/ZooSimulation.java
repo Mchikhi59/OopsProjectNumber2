@@ -30,6 +30,11 @@ public class ZooSimulation {
         eagle.sleep();
         eagle.displayInformation();
         System.out.println();
+        Registration register=new Registration();
+        register.setEmail("userEmail@yahoo.com");
+        register.setUserName("ZooEco22");
+        register.setPassword("PassCode2025");
+        register.displayRegistration();
 
     }
 }
